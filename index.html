@@ -4,72 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.svg">
     <title>Terms of Use - Top Shelf Tech</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>
+        :root {
+            --bg: #f4f7fb;
+            --card: #ffffff;
+            --text: #273142;
+            --heading: #111827;
+            --subheading: #334155;
+            --link: #0f62b0;
+            --border: #d9e2ec;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 0 20px;
-            color: #333;
-            line-height: 1.6;
+            margin: 0;
+            padding: 32px 18px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 34px 30px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            box-shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
         }
 
         h1 {
-            color: #111;
+            margin: 0 0 8px;
+            padding-bottom: 12px;
+            font-size: 2rem;
+            line-height: 1.25;
+            color: var(--heading);
+            border-bottom: 3px solid #e6eef8;
         }
 
         h2 {
-            color: #444;
-            margin-top: 30px;
+            margin: 28px 0 8px;
+            font-size: 1.15rem;
+            line-height: 1.35;
+            color: var(--subheading);
+        }
+
+        p {
+            margin: 0 0 14px;
         }
 
         a {
-            color: #0066cc;
+            color: var(--link);
+        }
+
+        a:hover {
+            text-decoration-thickness: 2px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px 12px;
+                font-size: 16px;
+            }
+
+            main {
+                padding: 22px 16px;
+            }
+
+            h1 {
+                font-size: 1.65rem;
+            }
         }
     </style>
 </head>
 
 <body>
-    <h1>Top Shelf Tech Terms of Use</h1>
-    <p><strong>Last updated:</strong> April 1, 2026</p>
+    <main>
+        <h1>Top Shelf Tech Terms of Use</h1>
+        <p><strong>Last updated:</strong> April 1, 2026</p>
 
-    <h2>Overview</h2>
-    <p>These Terms of Use apply to all Alexa skills, web applications, and other software published by Top Shelf Tech
-        and DrPine Solutions. By using our applications, you agree to these terms.</p>
+        <h2>Overview</h2>
+        <p>These Terms of Use apply to all Alexa skills, web applications, and other software published by Top Shelf Tech
+            and DrPine Solutions. By using our applications, you agree to these terms.</p>
 
-    <h2>Use of Our Applications</h2>
-    <p>Our applications are provided for personal, non-commercial use. You agree not to misuse, reverse engineer, or
-        attempt to exploit any of our applications or services.</p>
+        <h2>Use of Our Applications</h2>
+        <p>Our applications are provided for personal, non-commercial use. You agree not to misuse, reverse engineer, or
+            attempt to exploit any of our applications or services.</p>
 
-    <h2>Disclaimer of Warranties</h2>
-    <p>Our applications are provided "as is" without warranty of any kind, express or implied. Top Shelf Tech and DrPine
-        Solutions make no guarantees regarding availability, accuracy, or fitness for a particular purpose.</p>
+        <h2>Disclaimer of Warranties</h2>
+        <p>Our applications are provided "as is" without warranty of any kind, express or implied. Top Shelf Tech and DrPine
+            Solutions make no guarantees regarding availability, accuracy, or fitness for a particular purpose.</p>
 
-    <h2>Limitation of Liability</h2>
-    <p>Top Shelf Tech and DrPine Solutions shall not be liable for any direct, indirect, incidental, or consequential
-        damages arising from the use or inability to use our applications.</p>
+        <h2>Limitation of Liability</h2>
+        <p>Top Shelf Tech and DrPine Solutions shall not be liable for any direct, indirect, incidental, or consequential
+            damages arising from the use or inability to use our applications.</p>
 
-    <h2>Third Party Services</h2>
-    <p>Our applications may interact with third party services such as Amazon Alexa and Amazon Web Services. Your use of
-        those services is governed by their respective terms of use and privacy policies.</p>
+        <h2>Third Party Services</h2>
+        <p>Our applications may interact with third party services such as Amazon Alexa and Amazon Web Services. Your use of
+            those services is governed by their respective terms of use and privacy policies.</p>
 
-    <h2>Intellectual Property</h2>
-    <p>All content, code, and materials associated with our applications are the property of Top Shelf Tech and DrPine
-        Solutions unless otherwise stated.</p>
+        <h2>Intellectual Property</h2>
+        <p>All content, code, and materials associated with our applications are the property of Top Shelf Tech and DrPine
+            Solutions unless otherwise stated.</p>
 
-    <h2>Changes to These Terms</h2>
-    <p>We reserve the right to update these Terms of Use at any time. Continued use of our applications after changes
-        are posted constitutes acceptance of the updated terms.</p>
+        <h2>Changes to These Terms</h2>
+        <p>We reserve the right to update these Terms of Use at any time. Continued use of our applications after changes
+            are posted constitutes acceptance of the updated terms.</p>
 
-    <h2>Governing Law</h2>
-    <p>These terms are governed by the laws of the State of Washington, United States, without regard to conflict of law
-        provisions.</p>
+        <h2>Governing Law</h2>
+        <p>These terms are governed by the laws of the State of Washington, United States, without regard to conflict of law
+            provisions.</p>
 
-    <h2>Contact</h2>
-    <p>If you have any questions about these Terms of Use, please contact us at: <a
-            href="mailto:legal@topshelf.tech">legal@topshelf.tech</a></p>
+        <h2>Contact</h2>
+        <p>If you have any questions about these Terms of Use, please contact us at: <a
+                href="mailto:legal@topshelf.tech">legal@topshelf.tech</a></p>
+    </main>
 </body>
 
 </html>
