@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Legal scales favicon">
+  <rect width="64" height="64" rx="12" fill="#f5f7fa"/>
+  <rect x="30" y="12" width="4" height="34" fill="#1b2a41"/>
+  <rect x="20" y="16" width="24" height="3" fill="#1b2a41"/>
+  <line x1="22" y1="19" x2="16" y2="30" stroke="#1b2a41" stroke-width="2"/>
+  <line x1="42" y1="19" x2="48" y2="30" stroke="#1b2a41" stroke-width="2"/>
+  <path d="M10 30 L22 30 L16 40 Z" fill="#4f6d8a"/>
+  <path d="M42 30 L54 30 L48 40 Z" fill="#4f6d8a"/>
+  <rect x="22" y="46" width="20" height="4" rx="2" fill="#1b2a41"/>
+</svg>
